@@ -215,6 +215,3 @@ if __name__ == "__main__":
         print(f"\nProcessing: {instruction}")
         agent.send_email(instruction)
     
-    # Alternatively, run the CLI interface
-    # api = AutomationAPI()
-    # api.run_cli()
